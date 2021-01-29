@@ -32,7 +32,7 @@ detection:
         CommandLine|contains: 'cmd.exe /C '
     selection4:
         CommandLine|contains|all: 
-            - 'rundll32 c:\windows\\'
+            - 'rundll32 c:\windows\'
             - '.dll '
     specific1:
         ParentImage|endswith: '\rundll32.exe'
